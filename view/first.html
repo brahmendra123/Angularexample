@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML Starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<div ng-controller="MainController">
+    <div class="container-fluid card">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-white bg-warning">
+                    <div class="card-body">
+                        <div>
+                            <i class="fa fa-share fa-4x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Shares</h6>
+                        <h1>36</h1>
+                        <div zingchart id="chart-4" zc-values="mydata" zc-width="100%" zc-height="300px"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card bg-success text-white">
+                    <div class="card-body bg-success">
+                        <div>
+                            <i class="fa fa-user fa-4x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Users</h6>
+                        <h1>134</h1>
+                        <div zingchart id="chart-1" zc-json="myJson" zc-width="100%" zc-height="300px"
+                             zc-type="pie"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-white bg-danger">
+                    <div class="card-body bg-danger">
+                        <div>
+                            <i class="fa fa-list fa-4x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Posts</h6>
+                        <h1>87</h1>
+                        <div zingchart id="chart-2" zc-json="myJson" zc-width="100%" zc-height="300px"
+                             zc-type="bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-white bg-info">
+                    <div class="card-body bg-info">
+                        <div>
+                            <i class="fab fa-twitter fa-4x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Tweets</h6>
+                        <h1>125</h1>
+                        <div zingchart id="chart-3" zc-values="mydata1" zc-width="100%" zc-height="300px"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</html>
+
+
+

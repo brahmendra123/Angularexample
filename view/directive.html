@@ -1,0 +1,35 @@
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<div ng-app="myApp" ng-controller="controllerForms">
+    <div class="container-fluid">
+    <div class="well">
+        <div style="text-align:center;color:blue">
+            <span>Welcome</span>
+            <span>{{name | uppercase}}</span>
+                <span class="pull-right">
+                    <span><i class="fa fa-envelope"></i><b class="mydata">{{email}}</b></span> <br>
+                 <span class="mystyles"><i class="fa fa-phone"></i><b class="mydata">{{phone.toString()}}</b></span><br>
+
+            </span>
+
+        </div>
+        <!--<div class="col-md-4">welcome</div>
+        <div class="col-md-4">welcome</div>
+        <div class="col-md-4">welcome</div>-->
+    </div>
+        <div ng-include = "'main.htm'"></div>
+        <div ng-include = "'subjects.htm'"></div>
+    </div>
+</div>
+
+
+
+<style>
+    .mystyles{
+        padding-right: 100px;
+    }
+</style>

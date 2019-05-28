@@ -1,0 +1,25 @@
+[
+  {
+    "Name" : "Mahesh Sharma",
+    "Age" : 25,
+    "Salary" : "20000"
+  },
+
+  {
+    "Name" : "Rohan Malik",
+    "Age" : 20,
+    "Salary" : "22000"
+  },
+
+  {
+    "Name" : "Robert Petro",
+    "Age" : 45,
+    "Salary" : "67000"
+  },
+
+  {
+    "Name" : "Jullia Roberts",
+    "Age" : 21,
+    "Salary" : "55000"
+  }
+  ]
